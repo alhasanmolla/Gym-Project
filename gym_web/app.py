@@ -51,7 +51,7 @@ def index():
                 category = "Extremely Overweight"
                 advice = "Eat a balanced diet and do some exercise! 💪"
     
-    return render_template('hassan.html', bmi=bmi, category=category, advice=advice)
+    return render_template('index.html', bmi=bmi, category=category, advice=advice)
 
 if __name__ == '__main__':
     app.run(debug=True)
